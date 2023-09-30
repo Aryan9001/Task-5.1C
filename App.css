@@ -1,0 +1,88 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+.App-header {
+  border: 2px solid wheat;
+  border-style:ridge;
+}
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: rgb(154, 227, 242);
+  font-size:large;
+  font-family:sans-serif;
+  
+}
+.post-bar {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
+
+.post-type-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.post-type-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color:aquamarine;
+  border: none;
+  color: rgb(198, 0, 0);
+  cursor: pointer;
+}
+
+.post-type-buttons button.active {
+  background-color: rgb(13, 7, 7);
+  color: #e4480b;
+}
+
+.post-form {
+  background-color: #98a7c6;
+  padding: 65px;
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #282c34;
+  border-radius: 5px;
+  color: white; 
+}
+
+button[type="submit"] {
+  background-color: #000000;
+  color: rgb(246, 88, 2);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
